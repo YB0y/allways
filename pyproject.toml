@@ -46,6 +46,7 @@ alw = "allways.cli.main:main"
 dev = [
     "pytest>=9.0.0",
     "ruff>=0.14.10",
+    "pre-commit>=4.0",
 ]
 
 # bitcoin-message-tool incorrectly lists pytest as a runtime dependency
